@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Rename.ico</ApplicationIcon>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="AddNew.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Rename.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="AddNew.png" />
+  </ItemGroup>
+
+</Project>

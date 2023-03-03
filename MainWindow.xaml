@@ -1,0 +1,17 @@
+﻿<Window x:Class="ReleaseDateReNamer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ReleaseDateReNamer"
+        mc:Ignorable="d"
+        Title="Renamer" Height="349" Width="374" Icon="/AddNew.png">
+    <Grid>
+        <Button Content="Select Files" Margin="0,263,37,0" Name="btnSelectFiles" Height="24" VerticalAlignment="Top" HorizontalAlignment="Right" Width="116" Click="btnSelectFiles_Click"/>
+        <Label Content="Release Date:" Height="28" Margin="10,31,271,0" VerticalAlignment="Top"/>
+        <Label Content="File Action:" Height="28" Margin="10,235,288,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbChangeType" HorizontalAlignment="Left" Margin="10,263,0,0" VerticalAlignment="Top" Width="148"/>
+        <DatePicker  x:Name="Cal" HorizontalAlignment="Left" Margin="228,35,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
